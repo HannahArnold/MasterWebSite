@@ -1,0 +1,104 @@
+* {
+    background-color: #F7ECE1;
+
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+    color: #CAC4CE;
+    box-sizing: border-box;
+
+}
+
+#mainTitle {
+    font-family: 'Cookie', cursive;
+    color: #242038;
+    text-shadow: 2px 2px #F0F0F0;
+}
+
+#cat {
+    width: 50px;
+    height: 75px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+    color: #242038;
+    box-sizing: border-box;
+    padding: 40px 40px 20px 20px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+    color: #242038;
+    box-sizing: border-box;
+    padding: 40px 40px 20px 20px;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+    color: #242038;
+    box-sizing: border-box;
+    padding: 40px 40px 20px 20px;
+}
+
+img {
+    width: 30%
+}
+
+.center {
+    text-align: center;
+}
+
+.large {
+    font-size: 75px;
+}
+
+.small {
+    font-size: 30px;
+}
+
+#top {
+    font-size: 400px;
+    font-family: 'Roboto Mono', monospace;
+    color: #242038;
+}
+
+#menu ol {
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+}
+
+.medium {
+    font-size: 50px;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button {
+    background-color: #F7ECE1;
+    /* border: none;
+    color: white; */
+    padding: 15px 32px;
+    margin: 4px 2px;
+
+
+}
+
+button {
+    width: 500px;
+    border: none;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
