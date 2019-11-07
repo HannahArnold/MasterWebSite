@@ -1,104 +1,123 @@
-* {
-    background-color: #F7ECE1;
-
-    font-size: 35px;
-    font-family: 'Roboto Mono', monospace;
-    color: #CAC4CE;
-    box-sizing: border-box;
-
-}
-
-#mainTitle {
-    font-family: 'Cookie', cursive;
-    color: #242038;
-    text-shadow: 2px 2px #F0F0F0;
-}
-
-#cat {
-    width: 50px;
-    height: 75px;
-}
+@import url("https://fonts.googleapis.com/css?family=Sunshiney&display=swap");
 
 h1 {
-    font-size: 35px;
-    font-family: 'Roboto Mono', monospace;
-    color: #242038;
-    box-sizing: border-box;
-    padding: 40px 40px 20px 20px;
+  font-size: 35px;
+  font-family: "Sunshiney", cursive;
+  color: #242038;
+  box-sizing: border-box;
+  padding: 40px 40px 20px 20px;
+}
+/* cat icons in title */
+.cat {
+  width: 60px;
+  height: 90px;
+  line-height: 1.88889;
+  color: #696d7d;
 }
 
 h2 {
-    font-size: 35px;
-    font-family: 'Roboto Mono', monospace;
-    color: #242038;
-    box-sizing: border-box;
-    padding: 40px 40px 20px 20px;
+  font-size: 35px;
+  font-family: "Roboto Mono", monospace;
+  color: #242038;
+  box-sizing: border-box;
+  padding: 40px 40px 20px 20px;
 }
 
 h3 {
-    font-size: 35px;
-    font-family: 'Roboto Mono', monospace;
-    color: #242038;
-    box-sizing: border-box;
-    padding: 40px 40px 20px 20px;
+  font-size: 35px;
+  font-family: "Roboto Mono", monospace;
+  color: #242038;
+  box-sizing: border-box;
+  padding: 40px 40px 20px 20px;
 }
 
-img {
-    width: 30%
-}
-
+/*  */
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .large {
-    font-size: 75px;
+  font-size: 75px;
 }
 
 .small {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 #top {
-    font-size: 400px;
-    font-family: 'Roboto Mono', monospace;
-    color: #242038;
+  font-size: 400px;
+  font-family: "Roboto Mono", monospace;
+  color: black;
 }
 
 #menu ol {
-    list-style: none;
+  list-style: none;
 }
 
 #menu li {
-    display: inline;
+  display: inline;
 }
 
 .medium {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 body,
 html {
-    height: 100%;
-    margin: 0;
-    font-family: 'Roboto Mono', monospace;
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.88889;
+  background-color: #c8d5b9;
 }
 
 button {
-    background-color: #F7ECE1;
-    /* border: none;
-    color: white; */
-    padding: 15px 32px;
-    margin: 4px 2px;
-
-
+  background-color: #c8d5b9;
+  padding: 5px 10px;
+  margin: 2px 1px;
+  width: 500px;
+  border-radius: 10%;
 }
 
 button {
-    width: 500px;
-    border: none;
+  width: 400px;
+  border: none;
 }
 
 .flip {
-    transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+#cm:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#cm {
+  background-color: #cac4ce;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+#am:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#am {
+  background-color: #cac4ce;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+.topnav {
+  position: relative;
+  background-color: #8fc0a9;
+  font-size: 35px;
+  text-align: center;
+}
+.fab {
+  font-size: 65px;
+  color: black;
+}
+.fas {
+  font-size: 65px;
+  color: black;
 }
