@@ -44,6 +44,9 @@ ul{
 .center {
   text-align: center;
 }
+.left{
+  text-align: left;
+}
 
 .large {
   font-size: 75px;
@@ -77,12 +80,17 @@ ul{
 }
 
 body,
+
+ 
+
 html {
   height: 100%;
   margin: 0;
   font-family: "Roboto Mono", monospace;
   line-height: 1.88889;
   background-color: #c8d5b9;
+  
+  
 }
 
 button {
@@ -126,4 +134,26 @@ button {
 }
 .active {
   color: black;
+}
+div{
+  text-align: left
+}
+header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header{
+  background: url(../img/services-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 35px;
+  font-family: "Sunshiney", cursive;
+  color: #242038;
+  box-sizing: border-box;
+  /* padding: 40px 40px 20px 20px; */
+} 
+header img{
+  width:100%;
+  height: auto;
+  
 }
