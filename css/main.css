@@ -87,31 +87,17 @@ button {
 .flip {
   transform: scaleX(-1);
 }
-#cm:hover {
+
+/* .topnav:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-#cm {
-  background-color: #cac4ce;
-  color: white;
-  border-radius: 50%;
-  text-align: center;
-}
-#am:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-#am {
-  background-color: #cac4ce;
-  color: white;
-  border-radius: 50%;
-  text-align: center;
-}
+} */
 .topnav {
   position: relative;
   background-color: #8fc0a9;
   font-size: 35px;
   text-align: center;
+  color: black;
 }
 .fab {
   font-size: 65px;
