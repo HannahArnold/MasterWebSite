@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Sunshiney&display=swap");
-
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 h1 {
   font-size: 35px;
   font-family: "Sunshiney", cursive;
@@ -8,36 +8,49 @@ h1 {
   padding: 40px 40px 20px 20px;
 }
 /* cat icons in title */
+.flip {
+  transform: scaleX(-1);
+}
+
 .cat {
   width: 60px;
   height: 90px;
   line-height: 1.88889;
   color: #696d7d;
 }
-
+/*  */
 h2 {
-  font-size: 35px;
-  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
   color: #242038;
   box-sizing: border-box;
   padding: 40px 40px 20px 20px;
 }
 
 h3 {
-  font-size: 35px;
-  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
   color: #242038;
   box-sizing: border-box;
   padding: 40px 40px 20px 20px;
+  display: inline-block;
 }
 h4 {
   color: #242038;
   font-family: "Roboto Mono", monospace;
   font-size: 30px;
 }
+h5{
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  color: #242038;
+  box-sizing: border-box;
+  padding: 40px 40px 20px 20px;
+}
 ul{
   list-style-type:none;
 }
+/* positioning and styling */
 .right{
   text-align: right;
 }
@@ -79,11 +92,7 @@ ul{
   font-size: 50px;
 }
 
-body,
-
- 
-
-html {
+body,html {
   height: 100%;
   margin: 0;
   font-family: "Roboto Mono", monospace;
@@ -106,14 +115,8 @@ button {
   border: none;
 }
 
-.flip {
-  transform: scaleX(-1);
-}
 
-/* .topnav:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-} */
+/* navigation bar */
 .topnav {
   position: relative;
   background-color: #8fc0a9;
@@ -124,6 +127,7 @@ button {
 .fab {
   font-size: 65px;
   color: black;
+  text-align: center;
 }
 .fas {
   font-size: 65px;
